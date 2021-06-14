@@ -4,9 +4,17 @@
   "description": "React Adoption app",
   "main": "index.js",
   "scripts": {
+    "dev": "parcel src/index.html",
     "format": "prettier \"src/**/*.{js,html}\" --write",
-    "lint" :"eslint \"src/**/*.{js,jsx}\" --quiet",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "lint": "eslint \"src/**/*.{js,jsx}\" --quiet",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "preinstall": "npx npm-force-resolutions"
+  },
+  "resolutions": {
+    "postcss": "^8.2.10",
+    "glob-parent": "^5.1.2",
+    "css-what": "^5.0.1",
+    "normalize-url": "^4.5.1"
   },
   "repository": {
     "type": "git",
@@ -18,6 +26,11 @@
   "devDependencies": {
     "eslint": "^7.28.0",
     "eslint-config-prettier": "^8.3.0",
+    "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.1"
+  },
+  "dependencies": {
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
   }
 }
