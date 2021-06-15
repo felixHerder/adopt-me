@@ -10,12 +10,6 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "preinstall": "npx npm-force-resolutions"
   },
-  "resolutions": {
-    "postcss": "^8.2.10",
-    "glob-parent": "^5.1.2",
-    "css-what": "^5.0.1",
-    "normalize-url": "^4.5.1"
-  },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/felixHerder/adopt-me.git"
@@ -30,11 +24,19 @@
     "eslint-plugin-import": "^2.23.4",
     "eslint-plugin-jsx-a11y": "^6.4.1",
     "eslint-plugin-react": "^7.24.0",
+    "eslint-plugin-react-hooks": "^4.2.0",
     "parcel-bundler": "^1.12.5",
     "prettier": "^2.3.1"
   },
   "dependencies": {
+    "@frontendmasters/pet": "^1.0.3",
     "react": "^17.0.2",
     "react-dom": "^17.0.2"
+  },
+  "resolutions": {
+    "postcss": "^8.2.10",
+    "glob-parent": "^5.1.2",
+    "css-what": "^5.0.1",
+    "normalize-url": "^4.5.1"
   }
 }
