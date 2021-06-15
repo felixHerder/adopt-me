@@ -70,6 +70,7 @@ body {
   clip-path: circle(50% at 50% 50%);
   width: 100px;
   height: 100px;
+  object-fit: cover;
   float: left;
   margin: 0px 20px 0px 10px;
 }
@@ -158,6 +159,7 @@ header {
 .carousel-smaller > img {
   width: 100px;
   height: 100px;
+  object-fit: cover;
   border-radius: 50%;
   display: inline-block;
   margin: 15px;
