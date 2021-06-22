@@ -66,7 +66,7 @@ const WrappedDetails = connect(mapStateToProps)(Details);
 export default function DetailsWithErrorBoundary(props) {
   return (
     <ErrorBoundary>
-      <Details {...props} />
+      <WrappedDetails {...props} />
     </ErrorBoundary>
   )
 }
