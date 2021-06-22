@@ -1,6 +1,7 @@
 import React from 'react';
-import { hydrate } from 'react-dom';
+import { hydrate, render } from 'react-dom';
 import App from './App';
 
 
-hydrate(<App />, document.getElementById('root'));
+// hydrate(<App />, document.getElementById('root'));
+render(<App />, document.getElementById('root'));
